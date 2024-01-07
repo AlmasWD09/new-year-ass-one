@@ -53,7 +53,7 @@
 }
 
 .container {
-    max-width: 1320px;
+    max-width: 1420px;
     margin: 0 auto;
     border: 1px solid red;
 }
@@ -147,4 +147,120 @@
    }
 /* ============================
     Night party part end
+   =========================== */
+
+
+
+
+/* ============================
+    protfolio part start
+   =========================== */
+   .protfolio-info{
+    max-width: 750px;
+    padding: 15px 0;
+   }
+   .protfolio-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+   }
+   .card-one{
+     width: 360px;
+     height:400px;
+   }
+   .card-two{
+    width: 360px;
+     height:400px;
+   }
+   .card-three{
+    width: 360px;
+     height:400px;
+   }
+   .card-four{
+    width: 360px;
+     height:400px;
+   }
+   .card-five{
+    width: 360px;
+    height:400px;
+   }
+   .card-six{
+    width: 360px;
+     height:400px;
+   }
+   .card{
+    width: 100%;
+    height: 100%;
+   }
+   .card:hover{
+    border: 5px solid #dbec40ec;
+    border-radius: 18px;
+   }
+/* ============================
+    protfolio part end
+   =========================== */
+
+
+
+
+
+
+
+
+
+/* ============================
+    protfolio part end
+   =========================== */
+
+/* ============================
+    protfolio part end
+   =========================== */
+
+
+
+
+
+
+
+
+
+/* ============================
+    footer part start
+   =========================== */
+   .footer-section{
+    height: 400px;
+    background-color: #000000f6;
+    color: #ffff;
+    padding: 80px 0;
+   }
+   .footer{
+    padding: 20px 0;
+   }
+   .footer-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #ffff;
+    padding-bottom: 20px;
+   }
+   .icon-size{
+    width: 15px;
+    height: 15px;
+   }
+   .footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ffff;
+    padding: 20px 0;
+    gap: 15px;
+   }
+   .footer-description{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+   }
+/* ============================
+    footer part end
    =========================== */
